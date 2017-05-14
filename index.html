@@ -4,6 +4,7 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">	
 		<link rel="stylesheet" type="text/css" href="vendors/css/grid.css">	
+    <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
 		<link rel="stylesheet" type="text/css" href="resources/css/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Pacifico" rel="stylesheet">
 		<title>Muhammad Arsal Abdullah</title>
@@ -11,14 +12,14 @@
 	
 	<body>
 		<header>
-			<nav>
+			<nav class="sticky">
 				<div class="row">
 					<!-- <div class="nav-title">Muhammad Arsal Abdullah</div> -->
 					<ul class="main-nav">
-						<li><a href="#">About</a></li>
-						<li><a href="#">Technologies</a></li>
-						<li><a href="#">Portfolio</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#tech">Technologies</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -27,7 +28,23 @@
 			</div>
 		</header>
 
-		<section class="section-tech">
+		<!-- SECTION ABOUT -->
+		<section class="section-about" id="about">
+			
+			<div class="row">
+				<h2>Hi!</h2>
+				<p class="long-copy">
+					If you are here then you already know my name. <br><br>
+					I'm 24-year-old, inherently nature enthusiest, which of course makes me zealous about travelling. <br><br> I love every form of art. I take lyrics quite seriously. Some of my other favourite things are graphite pencil drawing (if you're interested have a look at my <a href="http://instagram.com">instagram</a>), guitar, chess, reading and Coldplay. <br><br>
+					I believe eveyone has power to help himself and the humanity.
+					I hope one day we will rise and connect above any religion, race, status and realize that in the core we all share the same emotions.
+				</p>
+			</div>
+
+		</section>
+
+		<!-- SECTION TECH -->
+		<section class="section-tech" id="tech">
 
 			<div class="row">
 				<h2>I'm experienced in...</h3>
@@ -94,6 +111,46 @@
 			</div>
 	
 		</section>
+
+		<footer>
+			
+			<div class="row">
+				
+				<div class="col span-1-of-2">
+					<ul class="footer-nav">
+						<li><a href="#about">About</a></li>
+						<li><a href="#tech">Technologies</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+				
+				<div class="col span-1-of-2">
+					<ul class="social-links">
+						<li><a href="#"><i class="ion-social-facebook"></i></a></li>
+						<li><a href="#"><i class="ion-social-twitter"></i></a></li>
+						<li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+						<li><a href="#"><i class="ion-social-instagram"></i></a></li>
+						<li><a href="#"><i class="ion-social-github"></i></a></li>
+						<li><a href="#"><i class="ion-social-linkedin"></i></a></li>
+					</ul>
+				</div>
+			
+			</div>
+
+			<div class="row">
+				<p>
+					Copyright &copy; 2017 Muhammad Arsal Abdullah				
+				</p>
+			</div>
+
+		</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!--     <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script> -->
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
 	</body>
 
 </html>
