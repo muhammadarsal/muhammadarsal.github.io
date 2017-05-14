@@ -26,6 +26,10 @@ section {
 	background-color: #202429;
 }
 
+.center {
+	margin: 0 auto;
+}
+
 /* ----- PARAGRAPHS ----- */
 .long-copy {
     line-height: 145%;
@@ -137,7 +141,9 @@ header {
 /* About */
 /* ----------------------------- */
 
-.section-about {
+.section-about a:link,
+.section-about a:visited {
+	color: #fff;
 	/*padding-top: 200px;*/
 	/*padding-bottom: 200px;*/
 }
@@ -150,16 +156,17 @@ header {
 /* ----------------------------- */
 
 .section-tech img {
-  -webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(80%);
+  /*-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  /*filter: grayscale(100%);*/
 	height: 100px;
-	transition: filter 0.2s;
+	transition: height 0.2s;
 }
 
 .section-tech img:hover {
-  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(0%);
+  /*-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  /*filter: grayscale(0%);*/
   cursor: pointer;
+  height: 90px;
 }
 
 .tech-list {
@@ -181,6 +188,18 @@ header {
    justify-content: center;
    align-items: center;
 }
+
+/* ----------------------------- */
+/* CONTACT */
+/* ----------------------------- */
+
+.section-contact a {
+	text-decoration: none;
+	margin: 0 auto;
+	font-size: 90%;
+	text-align: center;
+}
+
 /* ----------------------------- */
 /* FOOTER */
 /* ----------------------------- */
@@ -264,7 +283,6 @@ footer {
 .ion-social-linkedin:hover {
     color: #007bb6;
 }
-
 
 footer p {
     color: #888;
